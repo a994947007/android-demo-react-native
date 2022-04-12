@@ -1,18 +1,9 @@
 import React from 'react';
-import {View, Text} from 'react-native'
-import Nav from './src/navigation/nav';
+import {View, StyleSheet} from 'react-native'
+import HeaderText from './src/components/HeaderTextView';
 
 export default function App() {
   return (
-    <View>
-      <Text>
-        {"fsgsfdgssssss"}
-      </Text>
-    </View>
+    <HeaderText />
   );
 }
-/*
-<View style={{flex: 1}}>
-<Nav></Nav>
-</View>
-*/
