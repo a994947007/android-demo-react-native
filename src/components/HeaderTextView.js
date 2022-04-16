@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 import {View, StyleSheet, Text, TextInput} from 'react-native'
-import CustomReactEditView from '../components/CustomReactEditView';
+import RCTWrapReactEditView from '../components/RCTWrapReactEditView';
 
 const styles = StyleSheet.create({
   reactEditContainer: {
@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
 const HeaderText = memo(() => {
     return (
         <View style={styles.reactEditContainer}>
-          <CustomReactEditView style={styles.reactEditView}/>
+          <RCTWrapReactEditView style={styles.reactEditView}/>
         </View>
       );
 });
